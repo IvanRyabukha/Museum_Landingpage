@@ -66,6 +66,7 @@ html {
 html,
 :has(:target) {
   scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 
 body {
